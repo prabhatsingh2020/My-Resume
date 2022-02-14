@@ -1,0 +1,162 @@
+body{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+#parentdiv{
+    padding: 1px;
+    display: flex;
+    flex-direction: row;
+    background: #e7bfb9;
+    position: sticky;
+    box-shadow: 5px 5px 5px 5px rgb(105, 102, 102);
+}
+
+#logodiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 8px; */
+    padding: 7px 15px;
+}
+
+#para{
+    font-size: 19px;
+    margin: 6px 0px;
+    font-weight: bold;
+    color: #040404;
+
+}
+
+#blankspace{
+    flex-grow: 1;
+}
+
+#parentnav{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.childnav{
+    list-style: none;
+    padding: 10px;
+}
+
+.list{
+    font-size: 20px;
+}
+
+.listanc{
+    text-decoration: none;
+    color: black;
+}
+
+.listanc:hover{
+    color: red;
+}
+
+#searchbar{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    flex-grow: 1;
+    padding:0px 5px;
+
+}
+
+#input1{
+    font-size: 15px;
+    padding: 5px 7px;
+}
+.btn{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: burlywood;
+    color:black;
+    font-size: 15px;
+}
+#main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 570px;
+    background-color: #ffc4ee;
+  }
+  
+  #herosection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 85%;
+    width: 85%;
+  }
+  
+  #sidesection {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+   
+  #heading1 {
+    margin: 0px;
+    padding:10px 0px;
+    color: #f93b93;
+    font-weight: bold;
+  }
+  #heading2{
+      margin:0px;
+      font-size: 43px;
+  }
+  
+  #part2 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 13px;
+    padding: 10px 0px;
+  }
+  #para1{
+      text-align: justify;
+      color: #151616;
+  }
+  #bt {
+    display: flex;
+    align-items: center;
+  }
+  
+  #mre {
+    font-size: 15px;
+    padding:5px 7px;
+  }
+  
+  #sidesection2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
+  
+  #img {
+    height: 72%;
+    width: 54%;
+  }
+  #footer{
+    background: url('./static/footer-bg.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 35px; */
+
+}
+#paragraph{
+    font-size: 17px;
+}
